@@ -10,7 +10,6 @@ def borrapar(arreglo)
     arreglo.delete_at(indice) if arreglo[indice].even?
     indice -= 1
   end
-  arreglo
 end
 
 def suma(arreglo)
