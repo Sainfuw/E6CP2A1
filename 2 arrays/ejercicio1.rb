@@ -9,12 +9,10 @@ arreglo = [1, 2, 3, 9, 1, 4, 5, 2, 3, 6, 6]
 
 puts arreglo[0]
 puts arreglo[10]
-arreglo.each do |dato|
-  print "#{dato}  "
-end
+print arreglo
 puts
 arreglo.each_with_index do |dato, indice|
-  print "#{indice} - #{dato}  "
+  print "[#{indice} - #{dato}]  "
 end
 puts
 arreglo.each_with_index do |dato, indice|
