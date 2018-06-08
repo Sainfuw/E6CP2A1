@@ -6,13 +6,14 @@
 # *****
 # *****
 
-def draw_lines(size, lines)
-  lines.times do
-    size.times do
-      print '*'
-    end
-    print "\n"
+def draw_line(size)
+  puts '*' * size
+end
+
+def draw_lines(size)
+  size.times do
+    print draw_line 5
   end
 end
 
-draw_lines(5, 5)
+draw_lines(5)
